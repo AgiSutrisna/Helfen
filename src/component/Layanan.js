@@ -1,89 +1,72 @@
-import Card from 'react-bootstrap/Card';
+import React from 'react'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import './layanan.css';
-import "@fontsource/dm-sans";
-import "@fontsource/open-sans";
-import "@fontsource/roboto";
 
-export const Layanan = () => {
-    
+export default function Layanan() {
   return (
-    <div className='layanan'>
-      <div  className='title'>
-        <h2>Layanan Kami</h2>
-        <h4 >Kami menyediakan riset dengan metode dan tools yang sesuai untuk pengembangan bisnismu</h4>
-      </div>
-      <div className='card'>
-      <Row xs={1} md={3} className="g-4">
-        <Col>
-          <Card  className='box1'>        
-            <Card.Body className='inline'>
-              <Card.Title>Flaying</Card.Title>
-              <Card.Text>
-                <div className='txt-1'>
-                  <p>
-                  Bisnismu sudah bertumbuh dan ingin menemukan potensi lainnya ?
-                  </p>
+    <section id='layanan'>
+            <div className='container'>
+            <div className='frm-3'>
+                <div  className='title'>
+                    <h1>Layanan Kami</h1>
                 </div>
-                <div className='txt-2'>
-                  <p>
-                    Riset kami akan membantu <b>membuka potensi baru</b> dalam bisnismu untuk bertumbuh lebih besar lagi
-                  </p>
+                <div>
+                    <h3>Kami menyediakan riset dengan metode dan tools yang sesuai untuk pengembangan bisnismu</h3>
                 </div>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
+                <div className='frm-3-1'>
+                <Row xs={1} md={3} className="g-4">
+                    <Col>
+                    <div  className='frm-3-2'>        
+                      <div className='frm-3-3'>
+                        <div className='bo'>Flaying</div>
+                            <div className='b2'>
+                              <b>Bisnismu sudah bertumbuh dan ingin menemukan potensi lainnya ?</b>
+                            </div>
+                            <div className='frm-3-4'>
+                              <div className='b3'>
+                              Riset kami akan membantu <b>membuka potensi baru</b> dalam bisnismu untuk bertumbuh lebih besar lagi
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                    </Col>
 
-        <Col>
-          <Card  className='box2'>        
-            <Card.Body className='inline'>
-              <Card.Title>Fixing</Card.Title>
-              <Card.Text>
-                <div className='txt-1'>
-                  <p>
-                    Merasa ada sesuatu yang perlu diperbaiki dalam bisnismu? 
-                  </p>
-                </div>
-                
-                <div className='txt-2'>
-                  <p>
-                    Riset kami akan mencoba menemukan masalah dalam bisnismu dan <b>menyusun solusi terbaik.</b>
-                  </p>
-                </div>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
+                    <Col>
+                    <div  className='frm-3-2 clr-1'>        
+                      <div className='frm-3-3'>
+                        <div className='bo'>Fixing</div>
+                            <div className='b2'>
+                              <b>Merasa ada sesuatu yang perlu diperbaiki dalam bisnismu? </b>
+                            </div>
+                            <div className='frm-3-4'>
+                              <div className='b3'>
+                              Riset kami akan mencoba menemukan masalah dalam bisnismu dan <b>menyusun solusi terbaik.</b>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                    </Col>
 
-        <Col>
-          <Card  className='box3'>        
-            <Card.Body className='inline'>
-              <Card.Title>Funding</Card.Title>
-              <Card.Text>
-                <div className='txt-1'>
-                  <p>
-                    Bisnismu sedang membutuhkan pendanaan? 
-                  </p>
+                    <Col>
+                    <div  className='frm-3-2 clr-2'>        
+                      <div className='frm-3-3'>
+                        <div className='bo'>Funding</div>
+                            <div className='b2'>
+                              <b>Bisnismu sedang membutuhkan pendanaan? </b>
+                            </div>
+                            <div className='frm-3-4'>
+                              <div className='b3'>
+                              Riset Kami akan membantu <b>memetakan kekuatan bisnismu</b> dan menyiapkan <b>deck presentasi untuk calon investor</b>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                    </Col>    
+                </Row>
                 </div>
-                <div className='txt-2'>
-                  <p>
-                    Riset Kami akan membantu <b>memetakan kekuatan bisnismu</b> dan menyiapkan <b>deck presentasi untuk calon investor</b>
-                  </p>
+                <a href ="https://wa.me/6281355538777" className='btn-2 txt-btn text-white'>Kontak Admin</a>
                 </div>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>    
-    </Row>
-    </div>
-    <button >
-    KONTAK ADMIN
-    </button>
-    </div>
-    
-  );
+              </div>
+        </section>
+  )
 }
-
-export default Layanan;

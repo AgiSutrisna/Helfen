@@ -582,24 +582,7 @@ align-self: stretch;
 flex-grow: 0;
 }
 
-.txt-btn {
-    font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 54px;
-/* identical to box height, or 225% */
 
-text-align: center;
-letter-spacing: 0.24em;
-text-transform: uppercase;
-text-decoration: none;
-/* pointer-events : none; */
-
-/* White */
-
-color: #FFFFFF;
-}
 
 .txt-btn2 {
     font-family: 'DM Sans';
