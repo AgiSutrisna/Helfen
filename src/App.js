@@ -1,7 +1,7 @@
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import Navbar from './component/Navbar';
 import LandingPage from './component/LandingPage';
-import Layanan from './component/layanan.css';
+import '../src/component/layanan.css';
 import './index.scss';
 import "@fontsource/poppins";
 import "@fontsource/dm-sans";

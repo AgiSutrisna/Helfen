@@ -7,8 +7,8 @@ export default function () {
     <section id='#!'>
             <div className='container'>
             <div>
-                    <h2>Dapatkan Contoh Hasil Riset</h2>
-                    <h4>Isi data berikut dan dapatkan contoh hasil riset Helfen terdahulu</h4>
+                    <h1 className='h1'>Dapatkan Contoh Hasil Riset</h1>
+                    <h3 className='h3'>Isi data berikut dan dapatkan contoh hasil riset Helfen terdahulu</h3>
                 </div>
                         <Form>
                 <Form.Group className="mb-3" >
