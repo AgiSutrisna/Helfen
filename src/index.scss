@@ -8,15 +8,6 @@ height: 6458px;
 background: #FFFFFF;
 }
 
-@media screen and (min-width: 800px) {
-  .container {
-      width: 800px;
-      margin-left: auto;
-      margin-right: auto;
-  }
-}
-
-
 
 h1 {
   font-family: 'DM Sans';
@@ -293,12 +284,13 @@ flex-grow: 0;
 .frm-3-2 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 24px;
   gap: 24px;
 
-  width: 316px;
+  width: 316px !important;
   height: 256px;
+  text-align: center;
 
   /* Brand 50 */
 
@@ -443,26 +435,16 @@ flex-grow: 0;
 }
 
 .desc-1{
-  width: 331px;
-height: 72px;
-
-/* Headline/H3/Bold */
-
 font-family: 'DM Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 36px;
-/* or 112% */
+
 
 text-align: center;
 
-/* GRAY 500 */
-
 color: #444444;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 1;
@@ -470,28 +452,15 @@ align-self: stretch;
 flex-grow: 0;
 }
 
-
 .desc-2{
-  width: 331px;
-height: 182px;
-
-/* Body/B1/Reg */
-
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 26px;
-/* or 144% */
-
 text-align: center;
 
-/* GRAY 500 */
-
 color: #444444;
-
-
-/* Inside auto layout */
 
 flex: none;
 order: 2;
@@ -555,6 +524,11 @@ flex-grow: 0;
 }
 
 .containerLayanan{
+  /* Layanan */
+
+
+/* Auto layout */
+
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -564,6 +538,9 @@ gap: 33px;
 
 width: 1074px;
 height: 300px;
+
+
+/* Inside auto layout */
 
 flex: none;
 order: 2;
@@ -1021,66 +998,6 @@ order: 2;
 align-self: stretch;
 flex-grow: 0;
 }
-
-
-.txt-1-7{
- /* Button */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 16px 24px;
-gap: 10px;
-
-width: 360px;
-height: 54px;
-
-background: #0078B8;
-border-radius: 100px;
-
-/* Inside auto layout */
-
-flex: none;
-order: 4;
-flex-grow: 0;
-}
-
-.txt-99{
-  /* button */
-
-
-width: 83px;
-height: 54px;
-
-/* Button/Medium/Reg */
-
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 54px;
-/* identical to box height, or 225% */
-
-text-align: center;
-letter-spacing: 0.24em;
-text-transform: uppercase;
-
-/* White */
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-
 
 .keunggulanTiga{
   /* Value */
