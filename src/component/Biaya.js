@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 
 export default function Biaya() {
   return (
-    <section id="#">
+    <section id="estimasiBiaya">
             <div className='container'>
       <div  className='title text-center'>
         <h1>Estimasi Biaya Layanan</h1>

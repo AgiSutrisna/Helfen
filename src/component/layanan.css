@@ -287,8 +287,8 @@ button{
     width: 283px;
     height: 54px;
 
-    background: #0078B8;
-    border-radius: 100px;
+    background: #0078B8 !important;
+    border-radius: 100px !important;
 
     flex: none;
     order: 1;

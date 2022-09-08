@@ -12,13 +12,14 @@ export default function () {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_8dk12fg', 
-        'template_oz2wp4h', form.current, 'HlNSXvxNAg3kjh0sn')
+        emailjs.sendForm('service_stgspje', 
+        'template_4n7zfnh', form.current, '1WU2noYiBWYFITM61')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
               console.log(error.text);
             });
+            
             var nama = ("#nama").valueOf();
             var ig = ("#ig").valueOf(); 
             var hp = ("#hp").valueOf();
@@ -67,6 +68,7 @@ export default function () {
                 <Button className='tmbl' type="submit" value='send' onClick={sendEmail}>
                     Kirim
                 </Button>
+                
                 </Form>
             </div>
         </section>
