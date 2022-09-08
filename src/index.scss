@@ -1042,5 +1042,28 @@ align-self: stretch;
 flex-grow: 0;
 }
 
+.d-Keunggulan {
+  width: 371px;
+height: 128px;
+}
+
+.d2-Keunggulan {
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 51px;
+
+width: 294px;
+height: 431px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
   /* import bootstrap to set changes */
   @import "~bootstrap/scss/bootstrap";

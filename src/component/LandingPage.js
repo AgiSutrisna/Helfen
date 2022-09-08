@@ -3,7 +3,7 @@ import Home from '../component/home'
 import Navbar from './Navbar'
 import Problem from '../component/problem'
 import Layanan from './Layanan'
-// import Keunggulan from '../component/keunggulan'
+import Keunggulan from '../component/keunggulan'
 import Biaya from './Biaya'
 import About from '../component/about'
 import Form from '../component/form'
@@ -19,7 +19,7 @@ function LandingPage() {
         <Home />
         <Problem />
         <Layanan />
-        {/* <Keunggulan /> */}
+        <Keunggulan />
         <CaraKerja />
         <Biaya />
         <About />

@@ -4,7 +4,7 @@ export default function keunggulan() {
   return (
     <section id="keunggulan">
           <div className="container">
-          <div className="container-keunggulan">
+          <div className="d-flex">
           <div className="descKeunggulan">
                 <h1 className="txt-1-3">
                     Keunggulan Kami
