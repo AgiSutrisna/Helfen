@@ -3,7 +3,7 @@ import React from 'react'
 export default function contact() {
   return (
     <section id="kontak">
-            <div className='container'>
+            <div className='container pt-4'>
                 <div className='blue-page'>
                     <div>
                         <h2 className='text-white'><b>Ayo Riset bisnismu</b></h2>

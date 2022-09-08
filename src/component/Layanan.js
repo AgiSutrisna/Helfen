@@ -13,7 +13,7 @@ export default function Layanan() {
                 
                   <Row xs={1} md={3} className="justify-content-center g-4 pt-3">
                     
-                        <Col  className='frm-3-2 g-4'>        
+                        <Col  className='frm-3-2 m-4'>        
                           <div className='frm-3-3'>
                             <div className='bo'>Flaying</div>
                                 <div className='b2'>
@@ -28,7 +28,7 @@ export default function Layanan() {
                         </Col>
                       
 
-                        <Col  className='frm-3-2 clr-1'>          
+                        <Col  className='frm-3-2 clr-1 m-4'>          
                           <div className='frm-3-3'>
                             <div className='bo'>Fixing</div>
                                 <div className='b2'>
@@ -42,7 +42,7 @@ export default function Layanan() {
                             </div>
                           </Col>
 
-                          <Col  className='col frm-3-2 clr-2'>        
+                          <Col  className='col frm-3-2 clr-2 m-4'>        
                             <div className='frm-3-3'>
                               <div className='bo'>Funding</div>
                                   <div className='b2'>
@@ -56,9 +56,10 @@ export default function Layanan() {
                             </div>
                           </Col>
                   </Row>
-                  <div className='pt-4'>
+                <div>
                 <a href ="https://wa.me/6281355538777" className='btn-2 txt-btn text-white'>Kontak Admin</a>
                 </div>
+                
               </div>
         </section>
   )

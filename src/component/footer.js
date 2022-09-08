@@ -4,15 +4,15 @@ function footer() {
   return (
     
 <footer class="text-center text-lg-start">
-  <div class="container p-4">
+  <div class="container pt-4">
     <div class="row">
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
             <img src="assets/img/helfen2.png" alt="..." />
 
-        <p className='txt-7'>
+        <p className='txt-7 pt-4'>
         Memiliki visi untuk membantu sebanyak mungkin pemilik usaha khususnya UMKM dengan menempatkan riset sebagai bahan penting dalam pengambilan keputusan bisnis.
         </p>
-        <p className='txt-7'>Helfen 2022</p>
+        <p className='txt-7 pt-4'>Helfen 2022</p>
       </div>
 
       <div class="col-lg-2 col-md-6 mb-4 mb-md-0 " >

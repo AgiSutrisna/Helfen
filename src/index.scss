@@ -792,8 +792,8 @@ flex-grow: 0;
 }
 
 .txt-7{
-  width: 242px;
-height: 100px;
+max-width: 242px;
+max-height: 100px;
 
 /* Body/B3/Reg */
 
@@ -803,6 +803,7 @@ font-weight: 400;
 font-size: 12px;
 line-height: 20px;
 /* or 167% */
+text-align: center;
 
 
 /* GRAY 500 */

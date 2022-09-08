@@ -5,6 +5,9 @@ export default function about() {
     <section id="karir">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-1">
+                        <div class="p-5"><img  src="assets/img/image_5.png" alt="img_1" /></div>
+                    </div>
                     <div class="col-lg-6 order-lg-2">
                         <div class="p-5">
                             <h1><b>Cek Bisnismu dengan Survei Helfen!</b></h1>
@@ -13,9 +16,7 @@ export default function about() {
                         </div>
                         
                     </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5"><img  src="assets/img/image_5.png" alt="img_1" /></div>
-                    </div>
+                    
                 </div>
             </div>
         </section>

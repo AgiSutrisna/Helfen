@@ -218,8 +218,8 @@ button{
     padding: 24px;
     gap: 33px;
 
-    width: 420px;
-    height: 209px;
+    width: 420px !important;
+    height: 209px !important;
 
     background: #F9F7F7;
  
@@ -242,8 +242,8 @@ button{
     padding: 24px;
     gap: 33px;
 
-    width: 420px;
-    height: 209px;
+    width: 420px !important;
+    height: 209px !important;
 
     background: #F9F7F7;
  

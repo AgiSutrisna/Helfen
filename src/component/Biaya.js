@@ -5,14 +5,14 @@ import Row from 'react-bootstrap/Row';
 export default function Biaya() {
   return (
     <section id="estimasiBiaya">
-            <div className='container'>
+            <div className='container pt-5'>
       <div  className='title text-center'>
         <h1>Estimasi Biaya Layanan</h1>
       </div>
       <div className='frame'>
       <Row xs={2} md={2} className="g-4">
-        <Col>
-          <div className='ktk'>        
+        
+          <Col className='ktk m-4'>        
             <div className='inline'>
               <div>
               <p className='tlt'>
@@ -23,11 +23,11 @@ export default function Biaya() {
                 <p>/Riset</p>
               </div>
             </div>
-          </div>
-        </Col>
+          </Col>
+        
 
-        <Col>
-          <div  className='ktk'>        
+        
+          <Col  className='ktk m-4'>        
             <div className='inline'>
               <div>
               <p className='tlt'>
@@ -38,11 +38,11 @@ export default function Biaya() {
                 <p>/Riset</p>
               </div>
             </div>
-          </div>
+          
         </Col>
 
-        <Col>
-          <div  className='ktk'>        
+        
+          <Col  className='ktk m-4'>        
             <div className='inline'>
               <div>
                 <p className='tlt'>
@@ -53,11 +53,11 @@ export default function Biaya() {
                 <p>/Riset</p>
               </div>
             </div>
-          </div>
-        </Col>   
+          </Col>
+          
 
-        <Col>
-          <div  className='ktk-2'>        
+        
+          <Col  className='ktk-2 m-4'>        
             <div className='inline-2'>
               <div>
                 <p className='tlt'>
@@ -66,8 +66,8 @@ export default function Biaya() {
                 <h3><b>Kontak admin kami</b></h3>
                 </div>
             </div>
-          </div>
-        </Col>
+          </Col>
+        
     </Row>
     <p className="b1">*harga akan menyesuaikan dengan pemilihan metode riset dan jenis data yang digunakan</p>
     <a href ="https://wa.me/6281355538777" className='btn-2 txt-btn text-white'>Kontak Admin</a>
