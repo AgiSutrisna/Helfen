@@ -2,6 +2,9 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Swal from "sweetalert2";
+
+
 
 export default function () {
     const form = useRef();
@@ -16,7 +19,28 @@ export default function () {
           }, (error) => {
               console.log(error.text);
             });
-        };
+            var nama = ("#nama").valueOf();
+            var ig = ("#ig").valueOf(); 
+            var hp = ("#hp").valueOf();
+            if(nama === '' || ig ===''|| hp ===''){
+            Swal.fire({
+                title: "Field Empty!!",
+                text: "Please check the missing field!!",
+                icon:"warning",
+                button:"Aww yiss!!",
+            });
+            }else{
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Your work has been saved',
+                showConfirmButton: false,
+                timer: 1500
+            });
+        }
+    }
+        
+
   return (
     <section id='#!'>
             <div className='container'>
@@ -27,20 +51,20 @@ export default function () {
                         <Form ref={form} onSubmit={sendEmail}>
                 <Form.Group className="mb-3" >
                     <Form.Label><p><b>Nama Kamu</b></p></Form.Label>
-                    <Form.Control type="text" placeholder="Tulis Disini" name='nama' />
+                    <Form.Control type="text" placeholder="Tulis Disini" name='nama' id='nama' />
                 </Form.Group>
 
                 <Form.Group className="mb-3" >
                     <Form.Label><p><b>Akun Instagram Bisnismu</b></p></Form.Label>
-                    <Form.Control type="text" placeholder="Tulis Disini" name='ig' />
+                    <Form.Control type="text" placeholder="Tulis Disini" name='ig'  id='ig'/>
                 </Form.Group>
                 <Form.Group className="mb-3" >
                     <Form.Label><p><b>Nomor WhatsApp Aktif</b></p></Form.Label>
-                    <Form.Control type="text" placeholder="Tulis Disini" name='hp' />
+                    <Form.Control type="text" placeholder="Tulis Disini" name='hp' id='hp' />
                 </Form.Group>
                 <p>*File hasil riset akan kami kirimkan via Whatsapp. Pastikan nomor whatsapp yang kamu isi benar.</p>
                 <p>**Semua data yang kamu masukan tidak akan diberikan kepada pihak lain</p>
-                <Button className='tmbl' type="submit" value='send'>
+                <Button className='tmbl' type="submit" value='send' onClick={sendEmail}>
                     Kirim
                 </Button>
                 </Form>

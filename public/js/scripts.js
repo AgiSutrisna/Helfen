@@ -3,6 +3,9 @@
 * Copyright 2013-2022 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
 */
+
+import Swal from "sweetalert2";
+
 //
 // Scripts
 // 
@@ -51,4 +54,25 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    $("#sendEmail").click(function(){
+        var nama = $("#nama").val();
+        var ig = $("#ig").val();
+        var hp = $("#hp").val();
+
+        if(nama == '' || ig =='' || hp == ''){
+            Swal.fire({
+                title: "Field Empty!!",
+                text: "Please check the missing field!!",
+                icon:"warning",
+                button:"Aww yiss!!",
+            });
+        } else {
+            Swal.fire({
+                title: "Sukses!!",
+                text: "Please check the missing field!!",
+                icon:"succes",
+                button:"Aww yiss!!",
+            });
+        }
+    });
 });
