@@ -2,8 +2,7 @@ import React from 'react'
 
 function footer() {
   return (
-    <section id="#">
-    <div className='container'>
+    
 <footer class="text-center text-lg-start">
   <div class="container p-4">
     <div class="row">
@@ -61,8 +60,7 @@ function footer() {
   </div>
   
 </footer>
-</div>
-</section>
+
   )
 }
 

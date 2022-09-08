@@ -11,8 +11,9 @@ export default function Layanan() {
                     <h1>Layanan Kami</h1>
                 </div>
                 <div>
-                    <h3>Kami menyediakan riset dengan metode dan tools yang sesuai untuk pengembangan bisnismu</h3>
+                    <h3 className='txt-1-6'>Kami menyediakan riset dengan metode dan tools yang sesuai untuk pengembangan bisnismu</h3>
                 </div>
+                <div className='containerLayanan'>
                 <div className='frm-3-1'>
                 <Row xs={1} md={3} className="g-4">
                     <Col>
@@ -64,8 +65,10 @@ export default function Layanan() {
                     </Col>    
                 </Row>
                 </div>
+                </div>
                 <a href ="https://wa.me/6281355538777" className='btn-2 txt-btn text-white'>Kontak Admin</a>
                 </div>
+                
               </div>
         </section>
   )
