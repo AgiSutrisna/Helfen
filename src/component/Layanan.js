@@ -55,10 +55,11 @@ export default function Layanan() {
                                   </div>
                             </div>
                           </Col>
+                          <div className='buttonAdmin'>
+                                  <a href ="https://wa.me/6281355538777" className='btn-2 txt-btn text-white'>Kontak Admin</a>
+                              </div>
                   </Row>
-                <div>
-                <a href ="https://wa.me/6281355538777" className='btn-2 txt-btn text-white'>Kontak Admin</a>
-                </div>
+                  
                 
               </div>
         </section>
