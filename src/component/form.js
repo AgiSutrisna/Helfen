@@ -75,7 +75,7 @@ export default function () {
                 </Form.Group>
                 <Form.Group className="mb-3" >
                     <Form.Label><p><b>Nomor WhatsApp Aktif</b></p></Form.Label>
-                    <Form.Control type="text" placeholder="Tulis Disini" name='wa' required/>
+                    <Form.Control type="number" placeholder="Tulis Disini" name='wa' required/>
                     <Form.Control.Feedback type="invalid">
                   Please enter your whatsapp.
                     </Form.Control.Feedback>
