@@ -10,7 +10,7 @@ export default function Biaya() {
         <h1>Estimasi Biaya Layanan</h1>
       </div>
       <div className='frame'>
-      <Row xs={2} md={2} className="g-4">
+      <Row xs={2} md={2} className="g-4 justify-content-center">
         
           <Col className='ktk m-4'>        
             <div className='inline'>

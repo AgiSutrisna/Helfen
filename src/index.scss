@@ -1,3 +1,4 @@
+$enable-responsive-text-sizes:      true;
 .containerr {
 position: relative ;
 width: 1512px;
@@ -105,7 +106,7 @@ h4 {
   font-family: 'DM Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 14px;
 line-height: 54px;
 /* identical to box height, or 225% */
 
@@ -128,7 +129,7 @@ color: #FFFFFF;
   padding: 16px 24px;
   gap: 10px;
 
-  width: 283px;
+  max-width: 283px;
   height: 54px;
 
   background: #0078B8;
@@ -149,7 +150,7 @@ color: #FFFFFF;
   padding: 16px 24px;
   gap: 10px;
 
-  width: 360px;
+  max-width: 360px;
   height: 54px;
 
   background: #0078B8;
@@ -219,7 +220,7 @@ flex-grow: 0;
   padding: 0px;
   gap: 68px;
   
-  width: 498px;
+  // width: 498px;
   height: 412px;
   
   
@@ -234,7 +235,7 @@ flex-grow: 0;
 .frm-1-2 {
   width: 516px;
   height: 412px;
-  flex: none;
+  // flex: none;
   order: 1;
   flex-grow: 0;
 }

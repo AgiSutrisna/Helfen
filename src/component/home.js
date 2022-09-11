@@ -13,7 +13,7 @@ export default function home() {
                         </div>
                     </div>
                     <div class="col-lg-6 order-lg-2 frm-1">
-                        <div class="frm-1-2"><img  src="assets/img/image_1.png" alt="img_1" /></div>
+                        <div class="frm-1-2"><img  src="assets/img/image_1.png" alt="img_1" className="img-fluid"/></div>
                     </div>
                     
                 </div>
