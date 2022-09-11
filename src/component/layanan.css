@@ -165,7 +165,7 @@ h5{
     flex-grow: 0;
 }
 
-button{
+/* button{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -194,7 +194,7 @@ button{
     flex: none;
     order: 3;
     flex-grow: 0;
-}
+} */
 .frame{
     display: flex;
     flex-direction: column;
