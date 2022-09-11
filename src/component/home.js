@@ -9,7 +9,7 @@ export default function home() {
                 <div class="col-lg-6 order-lg-1">
                         <div class="p-5 frm-1-1">
                             <h2>Buka makin banyak pintu dalam bisnismu melalui <b>Data & Riset</b></h2>
-                            <a href ="https://wa.me/6281355538777" className='btn-1 txt-btn text-white'>Kontak Kami</a>
+                            <a href ="https://wa.me/6285722159221" className='btn-1 txt-btn text-white'>Kontak Kami</a>
                         </div>
                     </div>
                     <div class="col-lg-6 order-lg-2 frm-1">

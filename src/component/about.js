@@ -12,7 +12,7 @@ export default function about() {
                         <div class="p-5">
                             <h1><b>Cek Bisnismu dengan Survei Helfen!</b></h1>
                             <h3>Isi survei dari Helfen dan dapatkan analisa terkait riset yang tepat untuk bisnismu</h3>
-                            <a href ="https://wa.me/6281355538777" className='btn-2 txt-btn text-white'>Cek Sekarang</a>
+                            <a href ="https://wa.me/6285722159221" className='btn-2 txt-btn text-white'>Cek Sekarang</a>
                         </div>
                         
                     </div>
