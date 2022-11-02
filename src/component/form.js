@@ -15,10 +15,10 @@ export default function () {
         e.preventDefault();
     
         emailjs.sendForm(
-            'service_9d3bh5e', 
-            'template_2h5utge',
+            'service_stgspje', 
+            'template_4n7zfnh',
             form.current, 
-            'iStCGJfIACLR6x9OG'
+            '1WU2noYiBWYFITM61'
             )
             .then(
                 () => {
