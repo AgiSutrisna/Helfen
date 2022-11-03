@@ -2,8 +2,8 @@ import React from 'react'
 
 function problem() {
     return (
-      <section id="#">
-              <div class="container p-5">
+      <section id="background">
+              <div class=" p-5">
                   <div class="row">
                       <div class="col col-md-4 col-sm-12">
                           <div className='team-item text-center'>

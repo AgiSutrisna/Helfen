@@ -15,6 +15,7 @@ export default function navbar() {
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav  ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#background">BACKGROUND</a></li>
                         <nav>
                         <NavDropdown
                             id="nav-dropdown-muted-example"
@@ -22,14 +23,17 @@ export default function navbar() {
                             menuVariant="muted"
                         >
                             <NavDropdown.Item href="#layanan">Layanan Kami</NavDropdown.Item>
-                            <NavDropdown.Item href="#estimasiBiaya">
-                                Biaya Layanan
+                            <NavDropdown.Item href="#keunggulan">
+                                Keunggulan
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="#carakerja">
+                                Cara Kerja
                             </NavDropdown.Item>
                         </NavDropdown>
                         </nav>
-                        <li class="nav-item"><a class="nav-link" href="#carakerja">CARA KERJA</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#keunggulan">TENTANG KAMI</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#karir">KARIR</a></li>
+                        
+                        <li class="nav-item"><a class="nav-link" href="#estimasiBiaya">BIAYA LAYANAN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#karir">CEK RISET</a></li>
                         <li class="nav-item"><a class="nav-link" href="#kontak">KONTAK</a></li>
                     </ul>
                 </div>

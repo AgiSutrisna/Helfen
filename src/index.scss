@@ -9,6 +9,9 @@ height: 6458px;
 background: #FFFFFF;
 }
 
+.section{
+  gap: 0px;
+}
 
 h1 {
   font-family: 'DM Sans';
@@ -233,8 +236,8 @@ flex-grow: 0;
 }
 
 .frm-1-2 {
-  width: 516px;
-  height: 412px;
+  width: auto;
+  // height: 412px;
   // flex: none;
   order: 1;
   flex-grow: 0;
@@ -1047,7 +1050,11 @@ flex-grow: 0;
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: flex-start;
+// align-items: flex-start;
+align-items: center;
+// padding-left: max(110px);
+text-align: center;
+
 padding: 0px;
 gap: 24px;
 
@@ -1064,9 +1071,11 @@ flex-grow: 0;
 
 .container-keunggulan{
 display: flex;
+width: auto;
 flex-direction: row;
 align-items: center;
-padding: 110px;
+// padding-left: max(110px);
+text-align: center;
 gap: 42px;
 
 flex: none;
